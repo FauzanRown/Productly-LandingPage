@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.align-self-center h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 20px;
+    color: #2F281E;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2F281E; 
+}
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #2F281E; 
+}
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #2F281E;
+}
+
+.align-self-center p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 15px;
+    color: #2F281E;
+}
+
+.tombol-link a {
+    text-decoration: none;
+    color: #FF9900;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.btn-hero {
+    background-color: #FF9900;
+    padding: 15px;
+    padding-left: 41px;
+    padding-right: 41px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #ff9900ab;
+}
+
+.btn-navbar {
+    width: 100px;
+    height: 40px;
+    background-color: #FF9900;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.btn-navbar2 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #BCD0E5;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.btn-navbar2:hover {
+    background-color: #d3d3d3;
+    color: rgb(0, 0, 0);
+}
+
+.orang {
+    background-color: #ffe5d265;
+    border-radius: 40px;
+}
+
+.btn-coba {
+    background-color: #FF9900;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px; 
+}
+
+.btn-ahli {
+    background-color: #FF9900;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px; 
+}
+
+.btn-card {
+    background-color: #FF9900;
+    color: white;
+}
+.col-lg-8 h1 {
+    font-size: 30px;
+}
+
+.col-lg-3 h3 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.col-lg-3 p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.lingkaran {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram,
+.facebook,
+.youtube,
+.threads {
+    text-decoration: none;
+    font-size: 27px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s ease, transform 0.4s ease; /* Tambahkan transisi */
+}
+
+/* Background Gradients */
+.instagram {
+    background-image: linear-gradient(to bottom, #84116f 0%, #dc139c 50%, #fff700 100%);
+}
+
+.facebook {
+    background-image: linear-gradient(to right, #118be9 0%, #3daddc 100%);
+}
+
+.youtube {
+    background-color: rgb(215, 15, 15);
+}
+
+.threads {
+    background-color: black;
+}
+
+/* Hover Effects */
+.instagram:hover,
+.facebook:hover,
+.youtube:hover,
+.threads:hover {
+    transform: scale(1.2); /* Sedikit memperbesar elemen saat di-hover */
+    transition: background-color 0.4s ease, transform 0.4s ease; /* Transisi yang lebih halus */
+}
+
+.col-lg-3 a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+.col-lg-3 a p:hover {
+    color: #FF9900;
+    transition: 0.1s ease-out;
+}
+
+.ceklis {
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Tambahkan margin bawah jika diperlukan */
+}
+
+.ceklis img {
+    width: 30px; /* Atur ukuran ikon untuk responsivitas */
+    height: 30px;
+    margin-right: 1rem; /* Ruang antara ikon dan teks */
+}
+
+.card {
+    transition: 0.4s ease, transform 0.4s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.pagination .page-item .page-link {
+    color: #FF9900;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #FF9900;
+    color: white;
+    border-color: #FF9900;
+}
+
+@media screen and (max-width: 576px) {
+    .d-flex {
+        flex-direction: column-reverse;
+    }
+    
+    .btn-navbar2, .btn-navbar {
+        width: 100%;
+        margin-bottom: 10px;
+        display: inline-block;
+        margin-left: 0px !important;
+    }
+
+    .navbar-nav .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-card {
+        display: flex; /* Pastikan container-card menggunakan flexbox */
+        flex-direction: column; /* Ubah arah flex ke kolom untuk mobile */
+        align-items: center; /* Pusatkan konten secara horizontal */
+    }
+    
+    .card {
+        margin-left: 60px;
+        width: 100% !important; /* Buat kartu memenuhi lebar container pada perangkat mobile */
+        max-width: 400px !important; /* Maksimal lebar kartu untuk tampilan mobile */
+        margin-bottom: 1rem !important; /* Jarak antar kartu */
+    }
+
+    /* konten cheklist di konten ketiga */
+    .col-lg-6 .d-flex {
+        flex-direction: column;
+        align-items: flex-start; /* Agar teks berada di bawah ikon */
+    }
+
+    .ceklis img {
+        width: 40px; /* Sesuaikan ukuran ikon untuk layar kecil */
+        height: 40px;
+        margin-bottom: 17px;
+    }
+
+    .ceklis p {
+        font-size: 14px; /* Sesuaikan ukuran teks jika diperlukan */
+        text-align: center;
+    }
+
+    .lingkaran{
+        margin-bottom: 17px;
+        margin-top: 30px;
+    }
+
+    .row .shadow-sm h3 {
+        padding-top: 60px !important;
+    }
+
+    .pagination {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .btn-navbar2, .btn-navbar {
+        width: 100%;
+        margin-bottom: 10px;
+        display: inline-block;
+        margin-left: 0px !important;
+    }
+
+    .navbar-nav .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-md-8 .card {
+        width: 100% !important; /* Buat kartu memenuhi lebar container pada perangkat mobile */
+    }
+
+    .lingkaran{
+        margin-bottom: 17px !important;
+        margin-top: 30px !important;
+    }
+
+    .row .shadow-sm h3 {
+        padding-top: 60px !important;
+    }
+}
